@@ -1,0 +1,67 @@
+.container{
+    text-align: center;
+}
+.container h3{
+    font-size: 40px;
+}
+.container .box{
+    background-image: linear-gradient(to right,rgb(88, 193, 228), rgb(63, 63, 82));
+    width: 50%;
+    transform: translate(50%,0%);
+    border-radius: 5px;
+    height: 160px;
+}
+.container img{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.container .box h4{
+    color: white;
+    font-size: 24px;
+    margin-right: 50px;
+}
+.container .box h2{
+    font-size: 30px;
+}
+
+.container .jumlah-tiket{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 380px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .box1 .span1{
+    float: left;
+    margin-left: 400px;
+}
+
+.container .box1 span h4{
+    font-size: 24px;
+}
+
+.container .box1 span button{
+    float: left;
+}
+
+.container .box1 span .angka{
+    float: left;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.container1{
+    margin-top: 200px;
+    text-align: center;
+}
+
+#angka{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+#decrease{
+    margin-left: 25px;
+}

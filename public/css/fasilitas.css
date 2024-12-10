@@ -1,0 +1,239 @@
+body {
+    background-image: url('./3.jpeg');
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .con {
+    background-image: url('./22.jpeg');
+    background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area .container */
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 150px;
+  }
+  .navigation {
+    background-color: black;
+    width: 100%;
+    height: 7%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    padding-top: 11px;
+  }
+  .navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 15px;
+    font-size: 21px;
+
+  }
+  .navigation .home-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 120px;
+  }
+
+
+  .y {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .museum-name {
+    color: #fff; /* Warna teks museum */
+    font-size: 70px;
+    font-family: "PT Serif", serif;
+    margin-top: -5px;
+  }
+  .start-button {
+    background-color: #00a2ff;
+    border: none;
+    color: black;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: -20px;
+  }
+  .start-button:hover {
+    background-color: #005586;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center; /* Memusatkan konten horizontal */
+    align-items: center; /* Memusatkan konten vertikal */
+    margin-top: 50px;
+  }
+
+  .content {
+    width: 35%; /* Lebar konten */
+    padding: 20px;
+  }
+
+  #gam {
+    width: 100%; /* Pastikan gambar mengisi lebar kontainer */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+    margin-right: 120px;
+  }
+
+  p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .content-container1 {
+    display: flex;
+    justify-content: center; /* Memusatkan konten horizontal */
+    align-items: center; /* Memusatkan konten vertikal */
+    margin-top: 50px;
+  }
+
+  .content1 {
+    width: 40%; /* Lebar konten */
+  }
+
+  #gam1 {
+    width: 60%; /* Pastikan gambar mengisi lebar kontainer */
+    height: 440px;
+    margin-right: 165px;
+  }
+
+  .hhh {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: -20px; /* Menambah jarak bagian bawah */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .p-button {
+    background-color: #00a2ff;
+    border: none;
+    color: black;
+    padding: 8px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .p-button:hover {
+    background-color: #005586;
+  }
+
+  .ukur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -120px;
+  }
+
+  .ukir {
+      margin-left: 165px; /* Menggeser ke kanan sejauh mungkin */
+      width: 75%; /* Menentukan lebar maksimum */
+      padding: 0 20px; /* Memberikan padding agar konten tidak terlalu dekat dengan tepi */
+  }
+
+  .logo1 {
+    width: 130px;
+    float: left; /* Mengatur logo berada di kiri navigasi */
+    margin-left: 60px;
+    margin-top: -6px;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .box {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+  }
+  .image {
+      width: 100%;
+      height: 170px;
+      border-radius: 10px;
+  }
+  .imageh {
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+  }
+
+  .box {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+  }
+
+  .additional-content {
+    padding: 180px;
+    margin-top: -120px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .footer {
+    background-color: black;
+    text-align: center;
+  }
+
+  .footer img {
+    margin-top: 40px;
+    width: 85%;
+    height: 380px;
+  }
+
+  .box1 {
+    position: relative;
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+  }
+
+  .overlay-text {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }

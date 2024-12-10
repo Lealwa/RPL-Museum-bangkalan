@@ -1,0 +1,309 @@
+body {
+    background-image: url('./3.jpeg');
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  
+  .con {
+    background-image: url('./22.jpeg');
+    background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area .container */
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 150px;
+  }
+
+  .y {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .museum-name {
+    color: #fff; /* Warna teks museum */
+    font-size: 70px;
+    font-family: "PT Serif", serif;
+    margin-top: -5px;
+  }
+  .start-button {
+    background-color: #00a2ff;
+    border: none;
+    color: black;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: -20px;
+  }
+  .start-button:hover {
+    background-color: #005586;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center; /* Memusatkan konten horizontal */
+    align-items: center; /* Memusatkan konten vertikal */
+    margin-top: 50px;
+  }
+
+  .content {
+    width: 35%; /* Lebar konten */
+    padding: 20px;
+  }
+
+  #gam {
+    width: 100%; /* Pastikan gambar mengisi lebar kontainer */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+    margin-right: 120px;
+  }
+
+  p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .content-container1 {
+    display: flex;
+    justify-content: center; /* Memusatkan konten horizontal */
+    align-items: center; /* Memusatkan konten vertikal */
+    margin-top: 50px;
+  }
+
+  .content1 {
+    width: 40%; /* Lebar konten */
+  }
+
+  #gam1 {
+    width: 60%; /* Pastikan gambar mengisi lebar kontainer */
+    height: 440px;
+    margin-right: 165px;
+  }
+
+  .hhh {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: -20px; /* Menambah jarak bagian bawah */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .aaa {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -20px; /* Menambah jarak bagian bawah */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .p-button {
+    background-color: #00a2ff;
+    border: none;
+    color: black;
+    padding: 8px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .p-button:hover {
+    background-color: #005586;
+  }
+
+  .ukur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: -120px;
+  }
+
+  .ukir {
+      margin-left: 165px; /* Menggeser ke kanan sejauh mungkin */
+      width: 75%; /* Menentukan lebar maksimum */
+      padding: 0 20px; /* Memberikan padding agar konten tidak terlalu dekat dengan tepi */
+  }
+
+  .logo1 {
+    width: 130px;
+    float: left; /* Mengatur logo berada di kiri navigasi */
+    margin-left: 60px;
+    margin-top: -6px;
+  }
+
+  .footer {
+      background-color: black;
+      text-align: center;
+  }
+
+  .footer img {
+      margin-top: -210px;
+      width: 85%;
+      height: 380px;
+  }
+
+  .box1 {
+      position: relative;
+  }
+
+  .image-container {
+      position: relative;
+  }
+
+  .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+  }
+
+  .overlay-text {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  .container2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Satu kolom untuk kotak kiri, dua kolom untuk kotak kanan */
+      grid-template-rows: auto auto; /* Biarkan baris menyesuaikan dengan konten */
+      gap: 15px;
+      margin-left: 230px;
+      margin-top: 80px;
+  }
+
+  .box {
+      padding: 25px;
+      text-align: center;
+      background-color: 0px 0px 4px 0px rgba(0,0,0,0);
+      height: 550px;
+      width: 300px;
+      margin-left: 150px;
+  }
+
+  .long-box {
+      grid-row: span 2; /* Membuat kotak kiri memanjang ke bawah selama dua baris */
+  }
+
+  .image {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+  }
+
+  .ggg {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: -20px; /* Menambah jarak bagian bawah */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .garis {
+    border: none; /* Menghapus border bawaan */
+    background-color: #00a2ff; /* Warna garis */
+    height: 3px; /* Ketebalan garis */
+    width: 75%;
+    margin-top: -500px;
+  }
+
+  .long-box .garis1{
+    border: none; /* Menghapus border bawaan */
+    background-color: #070707; /* Warna garis */
+    height: 3px; /* Ketebalan garis */
+    width: 75%;
+  }
+
+  .long-box {
+    background-image: linear-gradient(blue, rgb(15, 15, 164));
+    height: 430px;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  .long-box img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 5%;
+    width: 5%;
+    float: left;
+  }
+  .long-box .p1{
+    color: white;
+    text-align: center;
+  }
+  .long-box .p2{
+    text-align: center;
+  }
+  .long-box ul li{
+    list-style-type: none;
+  }
+  .long-box .div3{
+    text-align: center;
+  }
+  .long-box .div3 h3{
+    color: white;
+  }
+  .long-box .div3 p{
+    color: white;
+  }
+  .long-box .operasional{
+    float: left;
+    margin-top: 40px;
+    color: white;
+  }
+  .long-box .operasional p{
+    color: white;
+    margin-left: 40px;
+  }
+  .long-box .div3{
+    margin-top: 70px;
+    margin-right: 100px;
+  }
+  .long-box .div3 h3{
+    font-size: 40px;
+  }
+  .long-box .butt{
+    float: right;
+    margin-top: 29px;
+    margin-right: 50px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+  }
+  th {
+      background-color: #f2f2f2;
+  }
+
+  .mytiket{
+    margin-top: 80px;
+  }

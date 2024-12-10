@@ -1,0 +1,72 @@
+.container{
+    margin-top: 100px;
+    text-align: center;
+}
+.gambar{
+    float: left;
+    justify-content: center;
+    margin-left: 150px;
+}
+.gambar img{
+    height: 400px;
+    width: 500px;
+}
+.kalimat{
+    font-weight: bold;
+    font-size: 40px;
+}
+.isi{
+    margin-top: 80px;
+}
+.isi h4{
+    font-size: 20px;   
+    margin-right: 150px;
+}
+.pengisian label{
+    font-weight: bold;
+}
+
+.pengisian input{
+    height: 25px;
+    width: 320px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(224, 228, 231);
+    border-radius: 3px;
+}
+
+.pengisian hr{
+    width: 320px;
+}
+
+.button .login{
+    background-color: rgb(68, 68, 234);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: white;
+}
+
+.button .forgot{
+    border: none;
+    height: 30px;
+}
+.button .forgot a{
+    text-decoration: none;
+    color: red;
+}
+
+.reg{
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.register a{
+    text-decoration: none;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+}
